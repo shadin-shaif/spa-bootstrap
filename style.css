@@ -1,0 +1,431 @@
+/* body{
+    font-family: 'PT Serif', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Rufina', serif;
+} */
+
+body .container{
+    max-width: 1150px;
+}
+body a{
+    text-decoration: none;
+}
+body ul{
+    list-style: none;
+}
+body span{
+    font-family: 'Roboto', sans-serif;
+}
+body h1,h2,h3,h4,h5,h6{
+    font-family: 'Rufina', serif;
+}
+h3 {
+    color: #1e2528;
+    margin-bottom: 31px;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+/* *************header menu css start************ */
+.banner{
+    padding: 6.5% 0;
+}
+nav ul li a{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 20px;
+    color: #343a40;
+    font-weight: 500;
+    transition: all .5s;
+}
+nav ul li a:hover{
+    color: #ff817e;
+}
+
+/************banner section css************ */
+.banner {
+    background: url(images/leaf.png) no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+        background-size: 13% 66%;
+        top: 10%;
+        background-position: 0% 45%;
+        padding: 12% 0;
+}
+.banner-title span {
+    color: #ff817e;
+    margin-bottom: 20px;
+    display: block;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.banner-title h2 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Rufina', serif;
+    margin-bottom: 25px;
+    line-height: 75px;
+}
+.details {
+    color: #555;
+    margin-bottom: 50px;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+/* .banner-btn a:first-child { */
+.btn{
+    background: #ff817e;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: inherit;
+    padding: 13px 20px;
+    min-width: 170px;
+    transition: .5s;
+    display: inline-block;
+    margin-right: 15px;
+}
+.btn:hover{
+    color: #111;
+}
+.video-btn {
+    color: #555;
+    font-weight: 400;
+    font-size: 15px;
+    transition: .5s;
+}
+.video-btn:hover{
+    color: #ff817e;
+}
+.video-btn i{
+    border-radius: 50%;
+    background-color: #fcf5ee;
+    color: #ff817e;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+    margin-right: 10px;
+    height: 44px;
+    width: 44px; 
+}
+.face {
+    width: 43%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.face img{
+    width: 100%;
+}
+/*-------- about section css start--------------- */
+.about{
+    position: relative;
+}
+.butterfly{
+    margin-bottom: 30px;
+}
+.about span {
+    color: #888;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+.flower img {
+   position: absolute;
+   
+}
+.flower2 {
+    position: absolute;
+    top: 47%;
+    right: 10%;
+}
+/* treatment section css started */
+/* treatment section css started */
+.services{
+    padding: 50px 0;
+}
+.service-item img{
+    width: 100%;
+}
+.service-item{
+    margin-right: 6px;
+    position: relative;
+}
+.service-hover{
+    position: absolute;
+    background-color: rgba(255, 129, 126, 0.9);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    left: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s; 
+}
+.service-hover span{
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.service-hover img{
+    width: 47px;
+    display: block;
+    margin: 0 auto 20px;
+}
+.service-item:nth-child(4n+4){
+    margin-right: 0%;
+}
+.service-item:hover .service-hover{
+    visibility: visible;
+    opacity: 1;
+    
+}
+/* popular products css section start */
+.card{
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+.card .btn{
+    background: #000;
+    color: #fff;
+}
+.card-body h5 {
+    margin: 20px 0;
+    font-size: 22px;
+}
+.card:hover .btn{
+    background: #ff817e;
+}
+.card:hover{
+    box-shadow: 10px 10px 15px  #ddd;
+}
+.fasiyal{
+    display: flex;
+}
+.product-dtails{
+    margin-right: 20px;
+}
+/* **************user section css start*************** */
+.user-review > p {
+    margin: 41px 0;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Rufina', serif;
+}
+.user{
+    background: #f8f2f2;
+}
+.user-bottom img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+}
+.user-bottom p{
+    font-family: 'Rufina', serif;
+    font-size: 22px;
+    color: #263141;
+}
+.user-bottom p span {
+    font-size: 15px;
+    color: #263a41;
+    font-weight: 300;
+    margin-left: 3px;
+}
+/* *******team member section css start********* */
+.team{
+    overflow: hidden;
+    padding: 100px 0;
+}
+.single-memb{
+    position: relative;
+    margin: 0 5px;
+}
+.single-memb img{
+    width: 100%;
+}
+
+.memb-details {
+    background: #ffff;
+    padding: 30px;
+    position: absolute;
+    width: 293px;
+    top: 87%;
+    left: 10%;
+    box-shadow: 0px 10px 10px #ddd;
+}
+.single-memb h6{
+    font-size: 22px;
+    font-weight: 700;
+}
+.single-memb span{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #6c6c6f; 
+}
+.member-social a {
+    color: #30383b;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #30383b;
+    border-radius: 50%;
+    line-height: 27px;
+    margin: 0 5px;
+    transition: .4s;
+}
+.member-social a:hover{
+    background: #ff817e;
+    border: 1px solid transparent;
+    color: #ffff;
+}
+/* .team{
+    margin-bottom: 160px;
+} */
+/* --------====== */
+
+.member-social{
+    position: relative;
+     visibility: none;
+    opacity: 0; 
+    transition: .5s;
+}
+.single-memb:hover .member-social{
+    visibility: visible;
+    opacity: 1;
+}
+/*-------- communication section css--------- */
+.communication{
+    background: #FFF9F8;
+}
+.img img{
+    width: 100%;
+}
+.communication form{
+    max-width: 650px;
+    margin-top: 30px !important;
+    margin: auto;
+}
+.communication form input[type="text"] ,
+.communication form input[type="email"] ,
+.communication form input[type="number"] ,
+.communication form input[type="date"] ,
+.communication textarea {
+    border: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d4d3d3;
+    color: #999;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+     padding: 10px 0; 
+    margin-bottom: 30px;
+    width: 100%;
+}
+.communication form .input{
+    display: flex;
+    margin-bottom: 30px;
+}
+.communication form .input input{
+    width: 48%;
+    margin:0 1% ;
+}
+
+/* ********* footer contact form************** */
+.icon span {
+    font-size: 17px;
+    background: #ff817e;
+    padding: 14px;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-right: 24px;
+    line-height: 54px;
+    color: #fff;
+}
+.location{
+    margin-bottom: 15px;
+}
+.place a, p {
+    color: #888;
+    font-size: 15px;
+    transition: .4s;
+}
+.place a:hover{
+    color: #ff817e;
+}
+
+/* contact form css */
+.footer-form form input ,textarea{
+    border: 1px solid #ddd;
+}
+.footer-form form input[type="text"] ,
+.footer-form form input[type="email"] ,
+textarea {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.footer-form textarea{
+    resize: none;
+}
+/*------------ footer css start---------------- */
+/*------------ footer css start---------------- */
+ .footer-social a {
+    color: #30383b;
+    display: inline-block;
+    border-right: 1px solid #a8b3b8;
+    padding-right: 5px;
+    margin: 0 5px;
+    transition: .4s;
+    font-size: 17px;
+} 
+.footer-social a:hover{
+    color: #ff817e;
+}
+@media all and (max-width:1160px) {
+    .banner-title h2{
+        font-size: 51px;
+    }
+}
+@media all and (max-width:992px) {
+    .main-header{
+        position: absolute;
+        top: 3%;
+        left: 0%;
+        width: 100%;
+        z-index: 1;
+    }
+}
+@media all and (max-width:798px) {
+    .memb-details{
+        padding: 20px;
+         width: 215px;
+        left: 3%;
+    }
+
+}
+
+
+
+
+
+            
+
+                      
+                      
